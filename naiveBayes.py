@@ -140,5 +140,5 @@ for i in range(0,y_test.size):
         acc = acc + 1
     print("a:",a,"b:",b,"c:",c)
 accuraccy = (acc/y_test.size)*100
-print(y_test)
-print("accuracy:",accuraccy)
+
+print("Accuracy:",accuraccy)
