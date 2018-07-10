@@ -5,7 +5,7 @@ import math
 
 #Getting Data
 iris = datasets.load_iris()
-X = iris.data[:, :4]  # we only take the first two features.
+X = iris.data[:, :4]  
 y = iris.target
 
 #Splitting into testing and training sets
